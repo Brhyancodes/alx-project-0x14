@@ -70,6 +70,7 @@ The MoviesDatabase API provides descriptive error codes to help identify and res
 {
   "status": "error",
   "code": 400,
+  
   "message": "Invalid request. Missing required parameter: genre."
 }
 
