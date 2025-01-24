@@ -55,11 +55,11 @@ Responses are returned in JSON format. Example response for a movies request:
   "total_results": 2
 }
 
-## Authentication
+ Authentication
 Authorization: Bearer YOUR_API_KEY
 
 
-## Error Handling
+Error Handling
 The MoviesDatabase API provides descriptive error codes to help identify and resolve issues with requests. Below are common errors you may encounter:
 
 400 Bad Request: The request is invalid. Check the parameters and ensure they are correctly formatted.
@@ -79,7 +79,7 @@ Validate Inputs: Ensure all required parameters are included and properly format
 Retry Logic: For 500 Internal Server Error responses, implement a retry mechanism with exponential backoff.
 Log Errors: Log API responses for troubleshooting and debugging.
 
-## Usage Limits and Best Practices
+Usage Limits and Best Practices
 Rate Limits
 The API enforces rate limits to ensure fair access for all users. Refer to the official documentation for specific limits (e.g., requests per minute or hour).
 
@@ -88,5 +88,5 @@ Cache Data: Cache frequently accessed data locally to reduce redundant requests.
 Efficient Queries: Use filters and parameters to minimize unnecessary data retrieval and improve response times.
 Monitor Usage: Track your API usage to avoid exceeding rate limits.
 
-## Feedback and Support
+ Feedback and Support
 If you encounter issues or have suggestions for improvement, feel free to contact the MoviesDatabase API support team.
